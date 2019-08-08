@@ -8,12 +8,13 @@ const Header = class extends React.Component {
       <header className="header">
         <div className="hero">
           <img className="hero__logo" src={logo} alt="Moonshine 152 logo" />
-          <h1 className="is-hidden">Moonshine 152</h1>
-          <h2 className="hero__desc">— Inspired dinner &amp; weekend&nbsp;brunches&nbsp;—</h2>
+          <div className="t-hidden">Moonshine 152</div>
+          <div className="hero__desc">— Inspired dinner &amp; weekend&nbsp;brunches&nbsp;—</div>
         </div>
         <nav className="nav" id="menu">
           <Link to="/" className="nav__link">Menu</Link>
           <Link to="/about" className="nav__link">About</Link>
+          <Link to="/press" className="nav__link">Press</Link>
           <a className="nav__link" href="http://www.opentable.com/single.aspx?restref=161260&rid=161260">Reservations</a>
           <a className="nav__link" href="https://gifts.opentable.com/buy/Moonshine-152?ref=1">Gift Cards</a>
           <a className="nav__link" href="tel:6177524191">
