@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Nav from './Nav'
 import './all.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from "gatsby"
@@ -45,7 +45,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
       </Helmet>
-      <Header />
+      <Nav />
       <div>{children}</div>
       <Footer />
     </div>
