@@ -34,5 +34,14 @@ articles:
       in life choices, accepting the inevitability of death, and finding “the
       zone.” And of course she answered Five Questions. Meet Asia.
     title: Asia Mei
+  - date: July 2017
+    link: >-
+      https://asia.nikkei.com/Business/Consumers/New-England-chefs-give-recipes-a-flavor-of-Asia
+    publication: Nikkei Asian Review
+    summary: >-
+      Growing numbers of Chinese-American restaurateurs in Boston are recreating
+      traditional Asian recipes with fresh New England produce, reflecting the
+      rich multicultural history of food in the northeastern United States.
+    title: New England Chefs Give Recipes a Flavor of Asia
 ---
 
