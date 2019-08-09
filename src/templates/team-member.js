@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
@@ -14,19 +14,17 @@ export const TeamMemberTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            {firstname} {lastname}
-            {role}
-            <article className="t-body bio">
-              <PostContent content={content} />
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
+    <main>
+      <nav className="moonshiners">
+        <Link className="moonshiner" to={"/team/" + firstname.toLowerCase()} activeClassName="is-active">
+          <h1 className="moonshiner__heading">{firstname}<br/>{lastname}</h1>
+          <h1 className="moonshiner__desc">{role}</h1>
+        </Link>
+      </nav>
+      <article className="t-body bio">
+        <PostContent content={content} />
+      </article>
+    </main>
   )
 }
 
