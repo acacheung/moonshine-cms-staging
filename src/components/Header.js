@@ -12,9 +12,9 @@ const Header = class extends React.Component {
           <div className="hero__desc">— Inspired dinner &amp; weekend&nbsp;brunches&nbsp;—</div>
         </div>
         <nav className="nav" id="bar">
-          <Link to="/#bar" className="nav__link">Menu</Link>
-          <Link to="/about#bar" className="nav__link">About</Link>
-          <Link to="/press#bar" className="nav__link">Press</Link>
+          <Link to="/#bar" className={`nav__link ${document.location.pathname === "/" ? "is-active" : ""}`}>Menu</Link>
+          <Link to="/about/#bar" className={`nav__link ${document.location.pathname === "/about/" ? "is-active" : ""}`}>About</Link>
+          <Link to="/press/#bar" className={`nav__link ${document.location.pathname === "/press/" ? "is-active" : ""}`}>Press</Link>
           <a className="nav__link" href="http://www.opentable.com/single.aspx?restref=161260&rid=161260">Reservations</a>
           <a className="nav__link" href="https://gifts.opentable.com/buy/Moonshine-152?ref=1">Gift Cards</a>
           <a className="nav__link" href="tel:6177524191">
