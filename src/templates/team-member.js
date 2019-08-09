@@ -4,10 +4,12 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const BlogPostTemplate = ({
+export const TeamMemberTemplate = ({
   content,
   contentComponent,
-  title,
+  firstname,
+  lastname,
+  role,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -16,10 +18,11 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <PostContent content={content} />
+            {firstname} {lastname}
+            {role}
+            <article className="t-body bio">
+              <PostContent content={content} />
+            </article>
           </div>
         </div>
       </div>
@@ -27,41 +30,47 @@ export const BlogPostTemplate = ({
   )
 }
 
-BlogPostTemplate.propTypes = {
+TeamMemberTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  title: PropTypes.string,
+  firstname: PropTypes.string,
+  lastname: PropTypes.string,
+  role: PropTypes.string,
 }
 
-const BlogPost = ({ data }) => {
+const TeamMember = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <TeamMemberTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
+        firstname={post.frontmatter.firstname}
+        lastname={post.frontmatter.lastname}
+        role={post.frontmatter.role}
       />
     </Layout>
   )
 }
 
-BlogPost.propTypes = {
+TeamMember.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default TeamMember
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query TeamMemberByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
-        title
+        firstname
+        lastname
+        role
       }
     }
   }

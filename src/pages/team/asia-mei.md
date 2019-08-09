@@ -1,6 +1,5 @@
 ---
-templateKey: 'blog-post'
-featuredpost: true
+templateKey: 'team-member'
 firstname: Asia
 lastname: Mei
 role: Chef & Owner
