@@ -17,9 +17,9 @@ collections:
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Bio", name: "bio", widget: "markdown"}
 
-  - file: "src/pages/press/index.md"
-    label: "Press Page"
-    name: "press"
+  - name: "press"
+    label: "Press"
+    folder: "src/pages/press"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-page"}
       - {label: Title, name: title, widget: string}
