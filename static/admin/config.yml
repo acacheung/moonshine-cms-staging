@@ -17,19 +17,10 @@ collections:
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Bio", name: "bio", widget: "markdown"}
 
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-      - file: "src/pages/press/index.md"
-        label: "Press Page"
-        name: "press"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Articles, name: articles, widget: list, fields: [{label: Publication, name: publication, widget: string}, {label: Title, name: title, widget: string}, {label: Month Published, name: date, widget: string}, {label: Summary, name: summary, widget: text}, {label: Link, name: link, widget: string}]}
+  - file: "src/pages/press/index.md"
+    label: "Press Page"
+    name: "press"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-page"}
+      - {label: Title, name: title, widget: string}
+      - {label: Articles, name: articles, widget: list, fields: [{label: Publication, name: publication, widget: string}, {label: Title, name: title, widget: string}, {label: Month Published, name: date, widget: string}, {label: Summary, name: summary, widget: text}, {label: Link, name: link, widget: string}]}

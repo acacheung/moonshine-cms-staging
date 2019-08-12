@@ -3,6 +3,8 @@ templateKey: 'team-member'
 firstname: Asia
 lastname: Mei
 role: Chef & Owner
+redirect_from:
+  - /team/
 ---
 
 Chef Asia Mei was born in Fremont, California, and grew up right in the middle of the Silicon Valley. Growing up in an atmosphere where pursuing financial or technological careers were the norm, she always knew the typical office setting was not for her. While having an extremely competitive nature always resulted in doing very well at school, it allowed her to truly thrive in demanding sports like gymnastics and martial arts. These disciplines consumed her extracurricular life and would later on influence her culinary career and success on the line.
