@@ -1,6 +1,5 @@
 ---
-templateKey: 'blog-post'
-featuredpost: false
+templateKey: 'team-member'
 firstname: Amanda
 lastname: Rae
 role: General Manager
