@@ -4,7 +4,7 @@ import { TeamMemberTemplate } from '../../templates/team-member'
 
 const TeamMemberPreview = ({ entry, widgetFor }) => (
   <TeamMemberTemplate
-    content={widgetFor('body')}
+    content={widgetFor('bio')}
     firstname={entry.getIn(['data', 'firstname'])}
     lastname={entry.getIn(['data', 'lastname'])}
     role={entry.getIn(['data', 'role'])}
