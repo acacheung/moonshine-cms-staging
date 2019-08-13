@@ -265,19 +265,14 @@ b {
 }
 
 .nav {
+  bottom: 0;
   width: 100%;
-  top: 0;
   box-shadow: 0px 6px 0px 0px $dark-gold;
   background-color: $gold;
   text-align: center;
   z-index: 3;
-
-  .header & {
-    top: auto;
-    bottom: 0;
-    @media (min-width: 850px) {
-      position: absolute;
-    }
+  @media (min-width: 850px) {
+    position: absolute;
   }
 }
 
