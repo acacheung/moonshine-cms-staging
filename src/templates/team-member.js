@@ -16,7 +16,7 @@ export const TeamMemberTemplate = ({
   return (
     <main>
       <nav className="moonshiners">
-        <Link className="moonshiner" to={"/team/" + firstname.toLowerCase()} activeClassName="is-active">
+        <Link className="moonshiner" to={"/team/" + firstname.toLowerCase() + "/#content"} activeClassName="is-active" partiallyActive={true}>
           <h1 className="moonshiner__heading">{firstname}<br/>{lastname}</h1>
           <h1 className="moonshiner__desc">{role}</h1>
         </Link>

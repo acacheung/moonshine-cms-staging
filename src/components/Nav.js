@@ -12,10 +12,10 @@ const Nav = class extends React.Component {
             <div className="hero__desc">— Inspired dinner &amp; weekend&nbsp;brunches&nbsp;—</div>
           </div>
         </header>
-        <nav className="nav">
-          <Link to="/menu/dinner" className="nav__link" activeClassName="is-active">Menu</Link>
-          <Link to="/team/asia" className="nav__link" activeClassName="is-active" partiallyActive={true}>Team</Link>
-          <Link to="/press/" className="nav__link" activeClassName="is-active">Press</Link>
+        <nav className="nav" id="content">
+          <Link to="/menu/dinner/#content" activeClassName="is-active" partiallyActive={true} className="nav__link">Menu</Link>
+          <Link to="/team/asia/#content" activeClassName="is-active" partiallyActive={true} className="nav__link">Team</Link>
+          <Link to="/press/#content" activeClassName="is-active" partiallyActive={true} className="nav__link">Press</Link>
           <a className="nav__link" href="http://www.opentable.com/single.aspx?restref=161260&rid=161260">Reservations</a>
           <a className="nav__link" href="https://gifts.opentable.com/buy/Moonshine-152?ref=1">Gift Cards</a>
           <a className="nav__link" href="tel:6177524191">
