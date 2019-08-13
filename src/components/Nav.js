@@ -13,9 +13,9 @@ const Nav = class extends React.Component {
           </div>
         </header>
         <nav className="nav" id="content">
-          <Link to="/menu/dinner/#content" activeClassName="is-active" partiallyActive={true} className="nav__link">Menu</Link>
-          <Link to="/team/asia/#content" activeClassName="is-active" partiallyActive={true} className="nav__link">Team</Link>
-          <Link to="/press/#content" activeClassName="is-active" partiallyActive={true} className="nav__link">Press</Link>
+          <Link to="/menu/dinner/#content" className="nav__link">Menu</Link>
+          <Link to="/team/asia/#content" className="nav__link">Team</Link>
+          <Link to="/press/#content" className="nav__link">Press</Link>
           <a className="nav__link" href="http://www.opentable.com/single.aspx?restref=161260&rid=161260">Reservations</a>
           <a className="nav__link" href="https://gifts.opentable.com/buy/Moonshine-152?ref=1">Gift Cards</a>
           <a className="nav__link" href="tel:6177524191">
