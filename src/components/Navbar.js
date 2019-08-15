@@ -47,6 +47,7 @@ const Navbar = class extends React.Component {
           >
             ☰
           </div>
+          <Link to="/press" className="nav__link">Press</Link>
           <Link to="/" className="nav__link">Home</Link>
           <Link to="/about" className="nav__link">About</Link>
           <Link to="/products" className="nav__link">Products</Link>
