@@ -253,6 +253,10 @@ b {
 .hero__logo {
   max-width: 620px;
   width: 100%;
+  max-width: 620px;
+  @media (max-width: 599px) {
+    height: 100%;
+  }
 }
 
 .hero__desc {

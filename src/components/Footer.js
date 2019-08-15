@@ -9,7 +9,6 @@ const Footer = class extends React.Component {
           <p className="hours">Weekend brunch 11 am – 3 pm</p>
           <p className="hours">Dinner everyday 5:30 pm – 10 pm</p>
           <p className="hours">Late night menu 10 pm – 1:30 am</p>
-
           <div className="socials">
             <a href="https://twitter.com/moonshine152" className="social--twitter">
               <svg id="icon-twitter" viewBox="0 0 32 32" width="16" height="16">
