@@ -19,8 +19,7 @@ class Moonshiners extends React.Component {
               </h1>
               <h2 className="moonshiner__desc">{post.frontmatter.role}</h2>
             </Link>
-          ))
-        }
+          ))}
       </nav>
     )
   }
