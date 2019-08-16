@@ -11,14 +11,14 @@ class Moonshiners extends React.Component {
       <nav className="moonshiners">
         {posts &&
           posts.map(({ node: post }) => (
-              <Link to={post.fields.slug} key={post.id} className="moonshiner" activeClassName="is-active">
-                <h1 className="moonshiner__heading">
-                  {post.frontmatter.firstname}
-                  <br />
-                  {post.frontmatter.lastname}
-                </h1>
-                <h2 className="moonshiner__desc">{post.frontmatter.role}</h2>
-              </Link>
+            <Link to={post.fields.slug} key={post.id} className="moonshiner" activeClassName="is-active">
+              <h1 className="moonshiner__heading">
+                {post.frontmatter.firstname}
+                <br />
+                {post.frontmatter.lastname}
+              </h1>
+              <h2 className="moonshiner__desc">{post.frontmatter.role}</h2>
+            </Link>
           ))
         }
       </nav>
