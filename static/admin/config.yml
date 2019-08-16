@@ -21,6 +21,18 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "team"
+    label: "Team"
+    folder: "src/pages/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-member"}
+      - {label: "First Name", name: "firstname", widget: "string"}
+      - {label: "Last Name", name: "lastname", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "pages"
     label: "Pages"
     files:
@@ -62,4 +74,4 @@ collections:
         label: "Press"
         name: "press"
         fields:
-          - {label: Articles, name: articles, widget: list, fields: [{label: Publication, name: publication, widget: string}, {label: title, name: title, widget: string}, {label: Date, name: date, widget: string}, {label: Summary, name: summary, widget: string}]}
+          - {label: Articles, name: articles, widget: list, fields: [{label: Publication, name: publication, widget: string}, {label: title, name: title, widget: string}, {label: Date Published, name: date, widget: date, format: MMMM YYYY}, {label: Summary, name: summary, widget: text}]}
