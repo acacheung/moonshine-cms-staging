@@ -9,9 +9,12 @@ const MenuGroupPreview = ({ entry }) => {
 
   return (
     <div>
+      <br />
+      <br />
+      <br />
       <MenuSubgroupNav />
       <MenuGroupTemplate
-        title={entry.getIn(['data', 'title'])}
+        time={entry.getIn(['data', 'time'])}
         subgroups={subgroups || { items: [] }}
       />
     </div>
