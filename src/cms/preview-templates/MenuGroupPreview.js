@@ -2,19 +2,23 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { MenuGroupTemplate } from '../../templates/menu-group'
 
-const MenuGroupPreview = ({ entry, widgetFor }) => (
-  <MenuGroupTemplate
-    description={entry.getIn(['data', 'description'])}
-    tags={entry.getIn(['data', 'tags'])}
-    title={entry.getIn(['data', 'title'])}
-  />
-)
+const MenuGroupPreview = ({ entry }) => {
+  const entrySubgroups = entry.getIn(['data', 'subgroups'])
+  const subgroups = entrySubgroups ? entrySubgroups.toJS() : []
 
-BlogPostPreview.propTypes = {
+  return (
+    <MenuGroupTemplate
+      title={entry.getIn(['data', 'title'])}
+      subgroups={subgroups}
+    />
+  )
+}
+
+MenuGroupPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
-  widgetFor: PropTypes.func,
+  getAsset: PropTypes.func,
 }
 
-export default BlogPostPreview
+export default MenuGroupPreview

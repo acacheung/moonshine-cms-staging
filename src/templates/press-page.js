@@ -8,7 +8,7 @@ export const PressPageTemplate = ({
   title,
   articles,
 }) => (
-  <div className="content">
+  <div>
     <h1 className="t-hidden">{title}</h1>
     <Articles articles={articles} />
   </div>
