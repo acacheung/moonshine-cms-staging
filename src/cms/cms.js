@@ -2,6 +2,7 @@ import CMS from 'netlify-cms-app'
 // import uploadcare from 'netlify-cms-media-library-uploadcare'
 // import cloudinary from 'netlify-cms-media-library-cloudinary'
 
+import MenuGroupPreview from './preview-templates/MenuGroupPreview'
 import PressPagePreview from './preview-templates/PressPagePreview'
 import TeamMemberPreview from './preview-templates/TeamMemberPreview'
 import AboutPagePreview from './preview-templates/AboutPagePreview'
@@ -12,6 +13,7 @@ import IndexPagePreview from './preview-templates/IndexPagePreview'
 // CMS.registerMediaLibrary(uploadcare);
 // CMS.registerMediaLibrary(cloudinary);
 
+CMS.registerPreviewTemplate('menu', MenuGroupPreview)
 CMS.registerPreviewTemplate('press', PressPagePreview)
 CMS.registerPreviewTemplate('team', TeamMemberPreview)
 CMS.registerPreviewTemplate('index', IndexPagePreview)

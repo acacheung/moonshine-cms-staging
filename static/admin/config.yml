@@ -16,6 +16,18 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  - name: "menu"
+    label: "Menu"
+    folder: "src/pages/menu"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "menu-group"}
+      - {label: "Menu Group", name: "title", widget: "string"}
+      - {label: "Time", name: "time", widget: "string"}
+      - {label: "Order", name: "order", widget: "number", default: 3, valueType: "int", min: 1}
+      - {label: "Menu Subgroups", name: subgroups, widget: list, fields: [{label: Title, name: title, widget: string, fields: [{label: Title, name: title, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: text, required: false}]}]}
+
   - name: "team"
     label: "Team"
     folder: "src/pages/team"

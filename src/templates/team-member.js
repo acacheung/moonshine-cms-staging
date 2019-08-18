@@ -33,6 +33,11 @@ const TeamMember = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
       />
+      <div className="callout-wrap">
+        <p className="callout">
+          “With an energetic neighborhood &amp; industry focused bar, the Moonshine crew aims to be everyone’s local go-to!”
+        </p>
+      </div>
     </Layout>
   )
 }

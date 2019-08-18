@@ -47,8 +47,9 @@ const Navbar = class extends React.Component {
           >
             ☰
           </div>
+          <Link to="/menu/dinner/" className="nav__link">Menu</Link>
           <Link to="/team/asia/" className="nav__link">Team</Link>
-          <Link to="/press/" className="nav__link">Press</Link>
+          <Link to="/press/" className="nav__link" activeClassName="is-active">Press</Link>
           <Link to="/" className="nav__link">Home</Link>
           <Link to="/about/" className="nav__link">About</Link>
           <Link to="/products/" className="nav__link">Products</Link>
