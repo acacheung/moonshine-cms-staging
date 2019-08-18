@@ -3,9 +3,9 @@ templateKey: team-member
 firstname: Asia
 lastname: Mei
 role: Chef & Owner
-order: 3
+order: 1
 ---
-Chef Asia Mei was born in California, and grew up right in the middle of the Silicon Valley. Growing up in an atmosphere where pursuing financial or technological careers were the norm, she always knew the typical office setting was not for her. While having an extremely competitive nature always resulted in doing very well at school, it allowed her to truly thrive in demanding sports like gymnastics and martial arts. These disciplines consumed her extracurricular life and would later on influence her culinary career and success on the line.
+Chef Asia Mei was born in Fremont, California, and grew up right in the middle of the Silicon Valley. Growing up in an atmosphere where pursuing financial or technological careers were the norm, she always knew the typical office setting was not for her. While having an extremely competitive nature always resulted in doing very well at school, it allowed her to truly thrive in demanding sports like gymnastics and martial arts. These disciplines consumed her extracurricular life and would later on influence her culinary career and success on the line.
 
 Living in the Bay Area was always an amazing source of exposure to different cultures and their food. While Asia didn’t know how to cook anything, the taste of her mother’s fried rice or the tamales from the neighboring Mexican taco stand always offered a satisfaction that nothing else could rival. When she moved to Boston, MA to attend Boston College’s Honor’s Program, it was in those “college food” dormitory years that she learned just how much she missed the availability of the good food at home.
 
