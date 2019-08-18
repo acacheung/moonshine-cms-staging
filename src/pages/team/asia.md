@@ -1,6 +1,6 @@
 ---
-templateKey: team-member
-firstname: Asia
+templateKey: 'team-member'
+title: Asia
 lastname: Mei
 role: Chef & Owner
 order: 1

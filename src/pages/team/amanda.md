@@ -1,6 +1,6 @@
 ---
 templateKey: 'team-member'
-firstname: Amanda
+title: Amanda
 lastname: Rae
 role: General Manager
 order: 2

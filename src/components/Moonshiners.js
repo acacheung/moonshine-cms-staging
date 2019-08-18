@@ -13,7 +13,7 @@ class Moonshiners extends React.Component {
           posts.map(({ node: post }) => (
             <Link to={post.fields.slug} key={post.id} className="moonshiner" activeClassName="is-active">
               <h1 className="moonshiner__heading">
-                {post.frontmatter.firstname}
+                {post.frontmatter.title}
                 <br />
                 {post.frontmatter.lastname}
               </h1>
@@ -48,7 +48,7 @@ export default () => (
                 slug
               }
               frontmatter {
-                firstname
+                title
                 lastname
                 role
                 order
