@@ -3,6 +3,7 @@ templateKey: 'team-member'
 firstname: Amanda
 lastname: Rae
 role: General Manager
+order: 2
 ---
 
 Born and raised Dorchester Native, Amanda at a young age fell in love with the atmosphere and artistry of the hospitality culture. As a kid, organizing brunches and decorating the dinner table she was bound for a life in the restaurant industry… it was only a matter of time. At 16 she joined the Flour Bakery Team where she learned the value of a tight knit team, the value of neighborhood regulars and the importance of a strong cup of coffee.

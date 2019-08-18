@@ -26,6 +26,7 @@ collections:
       - {label: "First Name", name: "firstname", widget: "string"}
       - {label: "Last Name", name: "lastname", widget: "string"}
       - {label: "Role", name: "role", widget: "string"}
+      - {label: "Order", name: "order", widget: "number", default: 3, valueType: "int", min: 1}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"

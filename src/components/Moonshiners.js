@@ -38,7 +38,7 @@ export default () => (
     query={graphql`
       query MoonshinersQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___firstname] }
+          sort: { order: ASC, fields: [frontmatter___order, frontmatter___lastname] }
           filter: { frontmatter: { templateKey: { eq: "team-member" } } }
         ) {
           edges {
@@ -51,6 +51,7 @@ export default () => (
                 firstname
                 lastname
                 role
+                order
                 templateKey
               }
             }

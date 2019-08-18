@@ -3,9 +3,14 @@ import PropTypes from 'prop-types'
 import { TeamMemberTemplate } from '../../templates/team-member'
 
 const TeamMemberPreview = ({ widgetFor }) => (
-  <TeamMemberTemplate
-    content={widgetFor('body')}
-  />
+  <div>
+    <br />
+    <br />
+    <br />
+    <TeamMemberTemplate
+      content={widgetFor('body')}
+    />
+  </div>
 )
 
 TeamMemberPreview.propTypes = {
