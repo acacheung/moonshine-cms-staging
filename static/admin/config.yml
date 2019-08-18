@@ -23,7 +23,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-member"}
-      - {label: "First Name", name: "firstname", widget: "string"}
+      - {label: "First Name", name: "title", widget: "string"}
       - {label: "Last Name", name: "lastname", widget: "string"}
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Order", name: "order", widget: "number", default: 3, valueType: "int", min: 1}
