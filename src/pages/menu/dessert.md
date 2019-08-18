@@ -7,6 +7,6 @@ subgroups:
   - title: Dessert
     items:
       - title: Butterscotch Pudding
-        price: 10
+        price: '10'
         description: Chantilly Crème, Toasted Amaranth Crumble
 ---
