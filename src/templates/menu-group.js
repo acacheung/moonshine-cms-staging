@@ -58,6 +58,11 @@ export const menuGroupQuery = graphql`
         time
         subgroups {
           title
+          items {
+            title
+            price
+            description
+          }
         }
       }
     }
