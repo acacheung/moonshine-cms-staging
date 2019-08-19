@@ -27,8 +27,6 @@ MenuGroupTemplate.propTypes = {
 const MenuGroup = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
-  console.log(frontmatter.subgroups)
-
   return (
     <Layout>
       <div className="l-auto">
