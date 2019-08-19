@@ -1,5 +1,5 @@
 import React from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Subgroups from '../components/Subgroups'
@@ -15,17 +15,19 @@ export const MenuGroupTemplate = ({
   </div>
 )
 
-// MenuGroupTemplate.propTypes = {
-//   time: PropTypes.string,
-//   subgroups: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       items: PropTypes.array,
-//     })
-//   ),
-// }
+MenuGroupTemplate.propTypes = {
+  time: PropTypes.string,
+  subgroups: PropTypes.arrayOf(
+    PropTypes.shape({
+      items: PropTypes.array,
+    })
+  ),
+}
 
 const MenuGroup = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+
+  console.log(frontmatter.subgroups)
 
   return (
     <Layout>
@@ -45,13 +47,13 @@ const MenuGroup = ({ data }) => {
   )
 }
 
-// MenuGroup.propTypes = {
-//   data: PropTypes.shape({
-//     markdownRemark: PropTypes.shape({
-//       frontmatter: PropTypes.object,
-//     }),
-//   }),
-// }
+MenuGroup.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
+}
 
 export default MenuGroup
 
