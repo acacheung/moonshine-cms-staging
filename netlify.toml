@@ -8,4 +8,9 @@
 [[redirects]]
   from = "/"
   to = "/menu/dinner/"
-  force = true
+[[redirects]]
+  from = "/menu/"
+  to = "/menu/dinner/"
+[[redirects]]
+  from = "/team/"
+  to = "/team/asia/"
