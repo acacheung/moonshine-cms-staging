@@ -5,8 +5,6 @@ import CMS from 'netlify-cms-app'
 import MenuGroupPreview from './preview-templates/MenuGroupPreview'
 import PressPagePreview from './preview-templates/PressPagePreview'
 import TeamMemberPreview from './preview-templates/TeamMemberPreview'
-import ProductPagePreview from './preview-templates/ProductPagePreview'
-import IndexPagePreview from './preview-templates/IndexPagePreview'
 
 // CMS.registerMediaLibrary(uploadcare);
 // CMS.registerMediaLibrary(cloudinary);
@@ -14,5 +12,3 @@ import IndexPagePreview from './preview-templates/IndexPagePreview'
 CMS.registerPreviewTemplate('menu', MenuGroupPreview)
 CMS.registerPreviewTemplate('press', PressPagePreview)
 CMS.registerPreviewTemplate('team', TeamMemberPreview)
-CMS.registerPreviewTemplate('index', IndexPagePreview)
-CMS.registerPreviewTemplate('products', ProductPagePreview)
