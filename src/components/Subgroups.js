@@ -27,6 +27,13 @@ Subgroups.propTypes = {
   subgroups: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
+      items: PropTypes.arrayOf(
+        PropTypes.shape({
+          title: PropTypes.string,
+          price: PropTypes.string,
+          description: PropTypes.string,
+        })
+      ),
     })
   ),
 }

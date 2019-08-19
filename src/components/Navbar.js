@@ -51,9 +51,7 @@ const Navbar = class extends React.Component {
           <Link to="/team/asia/" className="nav__link">Team</Link>
           <Link to="/press/" className="nav__link" activeClassName="is-active">Press</Link>
           <Link to="/" className="nav__link">Home</Link>
-          <Link to="/about/" className="nav__link">About</Link>
           <Link to="/products/" className="nav__link">Products</Link>
-          <Link to="/blog/" className="nav__link">Blog</Link>
           <a className="nav__link" href="http://www.opentable.com/single.aspx?restref=161260&rid=161260">Reservations</a>
           <a className="nav__link" href="https://gifts.opentable.com/buy/Moonshine-152?ref=1">Gift Cards</a>
           <a className="nav__link" href="tel:6177524191">
