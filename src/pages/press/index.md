@@ -103,5 +103,25 @@ articles:
       during the summer, but ended up skipping her graduation ceremony to search
       for a job in Boston that would teach her how to cook.
     title: Millennial chefs who are Changing the face of the industry
+  - date: January 2016
+    link: >-
+      https://www.bostonglobe.com/magazine/2016/01/06/boston-best-new-restaurants/iUKnLurIMnyImFoZC66F3M/story.html
+    publication: Boston Globe
+    summary: >-
+      Southie’s answer to Trina’s Starlite Lounge is open late and serves brunch
+      featuring a weekly Ron Swanson special, named for chef-owner Asia Mei’s
+      favorite TV character. Edamame hummus and jalapeno crab rangoons, “Mama
+      Mei’s” pork noodle soup, Korean barbecue tacos, elegant pork and fish
+      dishes, and burgers and butterscotch pudding all find their way to the
+      table at an unpretentious neighborhood spot.
+    title: Boston’s 50 best new restaurants
+  - date: November 2015
+    link: 'http://www.phantomgourmet.com/restaurant/ma-south-boston-moonshine-152'
+    publication: Phantom Gourmet
+    summary: >-
+      As the owner of Moonshine 152 in South Boston, Asia Mei is one of the
+      city’s best young chefs. But she certainly hasn’t taken the most
+      traditional path to get to where she is today.
+    title: Moonshine 152
 ---
 
