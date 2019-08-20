@@ -7,10 +7,13 @@ const PressPagePreview = ({ entry }) => {
   const articles = entryArticles ? entryArticles.toJS() : []
 
   return (
-    <PressPageTemplate
-      title={entry.getIn(['data', 'title'])}
-      articles={articles}
-    />
+    <div>
+      <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400,400i&display=swap" rel="stylesheet"></link>
+      <PressPageTemplate
+        title={entry.getIn(['data', 'title'])}
+        articles={articles}
+      />
+    </div>
   )
 }
 
