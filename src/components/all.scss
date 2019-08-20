@@ -40,12 +40,12 @@ ul {
 @font-face {
   font-family: "EdmondsansMedium";
   src: url("../fonts/edmondsans/edmondsans-medium-webfont.woff") format("woff");
-} 
+}
 
 @font-face {
   font-family: "EdmondsansRegular";
   src: url("../fonts/edmondsans/edmondsans-regular-webfont.woff") format("woff");
-} 
+}
 
 .l-wrap {
   margin-right: auto;
@@ -246,10 +246,10 @@ b {
   flex-direction: column;
   justify-content: center;
   min-height: 300px;
-  @media (max-width: 599px) {
+  @media (max-width: 849px) {
     height: calc(100vh - 306px);
   }
-  @media (min-width: 600px) {
+  @media (min-width: 850px) {
     height: calc(100vh - 72px);
   }
 }
