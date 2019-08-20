@@ -1,4 +1,5 @@
 ---
+templateKey: press-page
 articles:
   - date: June 2019
     link: >-
