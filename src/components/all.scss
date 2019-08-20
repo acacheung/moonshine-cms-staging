@@ -247,7 +247,7 @@ b {
   justify-content: center;
   min-height: 300px;
   @media (max-width: 849px) {
-    height: calc(100vh - 306px);
+    height: calc(100vh - 153px);
   }
   @media (min-width: 850px) {
     height: calc(100vh - 72px);
@@ -266,6 +266,7 @@ b {
   font-weight: 300;
   font-style: italic;
   color: $medium-gray;
+  width: 90%;
 }
 
 .nav {
@@ -275,6 +276,10 @@ b {
   background-color: $gold;
   text-align: center;
   z-index: 3;
+  @media (max-width: 849px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   .header & {
     @media (min-width: 850px) {
       bottom: 0;
@@ -294,9 +299,11 @@ b {
   transition-duration: .25s;
   transition-property: color;
   @media (max-width: 849px) {
-    display: block;
     border-bottom: 1px solid #cba742;
     line-height: 50px;
+    &:nth-child(odd) {
+      border-right: 1px solid #cba742;
+    }
   }
   @media (min-width: 850px) {
     line-height: 72px;
