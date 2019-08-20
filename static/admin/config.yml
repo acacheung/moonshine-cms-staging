@@ -58,4 +58,4 @@ collections:
         label: "Press"
         name: "press"
         fields:
-          - {label: Articles, name: articles, widget: list, fields: [{label: Publication, name: publication, widget: string}, {label: title, name: title, widget: string}, {label: Date Published, name: date, widget: date, format: MMMM YYYY}, {label: Summary, name: summary, widget: text}]}
+          - {label: Articles, name: articles, widget: list, fields: [{label: Publication, name: publication, widget: string}, {label: title, name: title, widget: string}, {label: Date Published, name: date, widget: date, format: MMMM YYYY}, {label: Summary, name: summary, widget: text}, {label: Link, name: link, widget: string}]}

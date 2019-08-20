@@ -56,6 +56,7 @@ export const pressPageQuery = graphql`
           title
           date
           summary
+          link
         }
       }
     }
