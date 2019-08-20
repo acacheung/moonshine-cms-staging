@@ -38,7 +38,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
 
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic' rel='stylesheet' type='text/css' />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400,400i&display=swap" rel="stylesheet"></link>
       </Helmet>
       <div>{children}</div>
     </div>
