@@ -1,8 +1,8 @@
 ---
-templateKey: 'press-page'
-title: Press
 articles:
   - date: June 2019
+    link: >-
+      https://www.bostonmagazine.com/best-of-boston-archive/2019/moonshine-152-2/
     publication: Boston Magazine
     summary: >-
       Come for rotating Jell-O shots; stay for the funky food, served until 1:30
@@ -10,8 +10,8 @@ articles:
       sweet-and-spicy sauces. Ravenous? Crush a personal-size meatloaf topped
       with loaded baked-potato “aioli.”
     title: 2019 Best Drunk Food
-    link: https://www.bostonmagazine.com/best-of-boston-archive/2019/moonshine-152-2/
   - date: January 2019
+    link: 'https://southbostononline.com/moonshine-still-shines/'
     publication: South Boston Online
     summary: >-
       From delectable vegetarian dishes to satiating naughty hangover cures,
@@ -23,24 +23,26 @@ articles:
       one of the most talented chefs the Boston scene has seen. Shine on,
       Moonshine.
     title: Moonshine Still Shines
-    link: https://southbostononline.com/moonshine-still-shines/
   - date: August 2017
+    link: >-
+      https://www.fivequestions.me/conversations/2017/8/29/five-questions-asia-mei
     publication: Five questions
     summary: >-
       Asia and I snagged a table at Moonshine 152 and chatted about feeling lost
       in life choices, accepting the inevitability of death, and finding “the
       zone.” And of course she answered Five Questions. Meet Asia.
     title: Asia Mei
-    link: https://www.fivequestions.me/conversations/2017/8/29/five-questions-asia-mei
   - date: July 2017
+    link: >-
+      https://asia.nikkei.com/Business/Consumers/New-England-chefs-give-recipes-a-flavor-of-Asia
     publication: Nikkei Asian Review
     summary: >-
       Growing numbers of Chinese-American restaurateurs in Boston are recreating
       traditional Asian recipes with fresh New England produce, reflecting the
       rich multicultural history of food in the northeastern United States.
     title: New England chefs give recipes a flavor of Asia
-    link: https://asia.nikkei.com/Business/Consumers/New-England-chefs-give-recipes-a-flavor-of-Asia
   - date: August 2019
+    link: 'https://www.youtube.com/watch?v=w8CHt9zRDI4'
     publication: Wicked Bites
     summary: >-
       Kylie McCoy is at Moonshine 152 in South Boston for some delicious and
@@ -48,16 +50,17 @@ articles:
       Asia Mei to get the lowdown on some of her fantastic creations, like her
       Award Winning Fried Chicken!
     title: 'Moonshine 152 (Boston, MA)'
-    link: https://www.youtube.com/watch?v=w8CHt9zRDI4
   - date: September 2016
+    link: 'https://www.youtube.com/watch?v=Wo4lvqxhzWM&feature=youtu.be'
     publication: Phantom Gourmet
     summary: >-
       Chef Asia Mei from Moonshine 152 in Southie talks about her restaurant's
       street food inspired menu, including nachos, tacos, fried rice, and
       butterscotch pudding.
     title: Asia Mei from Moonshine 152
-    link: https://www.youtube.com/watch?v=Wo4lvqxhzWM&feature=youtu.be
   - date: September 2016
+    link: >-
+      https://www.bostonglobe.com/lifestyle/food-dining/2016/09/12/when-you-been-same-restaurant-times/CIJMwvuOEXpd8ZM0PfdZxO/story.html
     publication: The Boston Globe
     summary: >-
       You have a favorite restaurant. The staff greets you by name. You’re
@@ -65,8 +68,9 @@ articles:
       route before you’ve ordered. Complimentary small dishes appear. Ah, the
       joys of being a regular.
     title: The perks of being a restaurant regular
-    link: https://www.bostonglobe.com/lifestyle/food-dining/2016/09/12/when-you-been-same-restaurant-times/CIJMwvuOEXpd8ZM0PfdZxO/story.html
   - date: July 2016
+    link: >-
+      https://www.improper.com/bostons-best/2016/bars-clubs/industry-hangout/moonshine-152-2/
     publication: Improper Bostonian
     summary: >-
       It’s not hard to see how Moonshine became a hit with hospitality types.
@@ -77,6 +81,26 @@ articles:
       post-shift tipplers sated with oysters and jalapeño crab rangoons. File
       under: very full moons.
     title: Boston’s Best Industry Hangout
-    link: https://www.improper.com/bostons-best/2016/bars-clubs/industry-hangout/moonshine-152-2/
+  - date: March 2016
+    link: 'https://www.zagat.com/b/boston/9-hottest-restaurants-in-south-boston#1'
+    publication: Zagat
+    summary: >-
+      Chef Asia Mei brings together American East Coast cookery, Far East
+      flavors and a penchant for street food under one roof. The result?
+      Tantalizing snacks like lamb meatballs with habanero-date jam, jalapeño
+      and crab rangoon with spicy honey, and Korean BBQ tacos with Asian pear
+      kimchi.
+    title: South Boston's 9 Hottest Restaurants
+  - date: January 2016
+    link: >-
+      https://www.thrillist.com/eat/nation/meet-the-millennial-chefs-redefining-cooking-and-changing-the-face-of-the-industry
+    publication: Thrillist
+    summary: >-
+      Growing up in the heart of Silicon Valley, Asia Mei knew she didn’t want
+      to be an office drone -- but cooking wasn't always in the picture. She got
+      a degree in economics and biology while working as a stuntwoman in LA
+      during the summer, but ended up skipping her graduation ceremony to search
+      for a job in Boston that would teach her how to cook.
+    title: Millennial chefs who are Changing the face of the industry
 ---
 
