@@ -1,5 +1,6 @@
 ---
 templateKey: press-page
+title: Press
 articles:
   - date: June 2019
     link: >-
