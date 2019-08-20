@@ -12,7 +12,7 @@ const Articles = ({ articles }) => (
             <span className="press__date t-medium-gray"> ({article.date})</span>
           </h2>
           <p className="t-text">
-            {article.summary} <a className="t-link has-arrow t-gold" href={article.link}>Read full article</a>
+            {article.summary} <a className="t-link has-arrow t-gold" href={article.link}>See full article</a>
           </p>
         </li>
       ))}

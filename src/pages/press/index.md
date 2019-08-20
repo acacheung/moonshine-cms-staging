@@ -1,4 +1,6 @@
 ---
+templateKey: 'press-page'
+title: Press
 articles:
   - date: June 2019
     publication: Boston Magazine
@@ -8,6 +10,7 @@ articles:
       sweet-and-spicy sauces. Ravenous? Crush a personal-size meatloaf topped
       with loaded baked-potato “aioli.”
     title: 2019 Best Drunk Food
+    link: https://www.bostonmagazine.com/best-of-boston-archive/2019/moonshine-152-2/
   - date: January 2019
     publication: South Boston Online
     summary: >-
@@ -20,6 +23,7 @@ articles:
       one of the most talented chefs the Boston scene has seen. Shine on,
       Moonshine.
     title: Moonshine Still Shines
+    link: https://southbostononline.com/moonshine-still-shines/
   - date: August 2017
     publication: Five questions
     summary: >-
@@ -27,6 +31,7 @@ articles:
       in life choices, accepting the inevitability of death, and finding “the
       zone.” And of course she answered Five Questions. Meet Asia.
     title: Asia Mei
+    link: https://www.fivequestions.me/conversations/2017/8/29/five-questions-asia-mei
   - date: July 2017
     publication: Nikkei Asian Review
     summary: >-
@@ -34,6 +39,7 @@ articles:
       traditional Asian recipes with fresh New England produce, reflecting the
       rich multicultural history of food in the northeastern United States.
     title: New England chefs give recipes a flavor of Asia
+    link: https://asia.nikkei.com/Business/Consumers/New-England-chefs-give-recipes-a-flavor-of-Asia
   - date: August 2019
     publication: Wicked Bites
     summary: >-
@@ -42,6 +48,7 @@ articles:
       Asia Mei to get the lowdown on some of her fantastic creations, like her
       Award Winning Fried Chicken!
     title: 'Moonshine 152 (Boston, MA)'
+    link: https://www.youtube.com/watch?v=w8CHt9zRDI4
   - date: September 2016
     publication: Phantom Gourmet
     summary: >-
@@ -49,6 +56,7 @@ articles:
       street food inspired menu, including nachos, tacos, fried rice, and
       butterscotch pudding.
     title: Asia Mei from Moonshine 152
+    link: https://www.youtube.com/watch?v=Wo4lvqxhzWM&feature=youtu.be
   - date: September 2016
     publication: The Boston Globe
     summary: >-
@@ -57,6 +65,7 @@ articles:
       route before you’ve ordered. Complimentary small dishes appear. Ah, the
       joys of being a regular.
     title: The perks of being a restaurant regular
+    link: https://www.bostonglobe.com/lifestyle/food-dining/2016/09/12/when-you-been-same-restaurant-times/CIJMwvuOEXpd8ZM0PfdZxO/story.html
   - date: July 2016
     publication: Improper Bostonian
     summary: >-
@@ -68,5 +77,6 @@ articles:
       post-shift tipplers sated with oysters and jalapeño crab rangoons. File
       under: very full moons.
     title: Boston’s Best Industry Hangout
+    link: https://www.improper.com/bostons-best/2016/bars-clubs/industry-hangout/moonshine-152-2/
 ---
 
