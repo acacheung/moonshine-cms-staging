@@ -6,7 +6,8 @@ $medium-gray: #9f9c9c;
 $dark-gray: #8c8c8e;
 $dark-gold: darken($gold, 10%);
 
-$edmond: "Edmondsans", sans-serif;
+$edmond-regular: "EdmondsansRegular", sans-serif;
+$edmond-medium: "EdmondsansMedium", sans-serif;
 $merriweather: "Merriweather", serif;
 
 html, body, div, span, applet, object, iframe,
@@ -35,6 +36,16 @@ footer, header, hgroup, menu, nav, section {
 ul {
   list-style-type: none;
 }
+
+@font-face {
+  font-family: "EdmondsansMedium";
+  src: url("../fonts/edmondsans/edmondsans-medium-webfont.woff") format("woff");
+} 
+
+@font-face {
+  font-family: "EdmondsansRegular";
+  src: url("../fonts/edmondsans/edmondsans-regular-webfont.woff") format("woff");
+} 
 
 .l-wrap {
   margin-right: auto;
@@ -132,8 +143,7 @@ b {
 .contacts__heading {
   margin-bottom: 24px;
   font-size: 30px;
-  font-weight: 300;
-  font-family: $edmond;
+  font-family: $edmond-regular;
   text-transform: uppercase;
   color: $dark-gray;
   letter-spacing: 5px;
@@ -172,7 +182,7 @@ b {
   float: left;
   clear: left;
   font-size: 18px;
-  font-family: $edmond;
+  font-family: $edmond-regular;
   text-decoration: none;
   color: $white;
   transition-duration: .25s;
@@ -276,8 +286,7 @@ b {
 
 .nav__link {
   font-size: 14px;
-  font-weight: 500;
-  font-family: $edmond;
+  font-family: $edmond-medium;
   text-transform: uppercase;
   text-decoration: none;
   color: $black;
@@ -354,8 +363,7 @@ b {
 .menu__link {
   margin-bottom: 20px;
   font-size: 30px;
-  font-weight: 300;
-  font-family: $edmond;
+  font-family: $edmond-regular;
   text-transform: uppercase;
   text-decoration: none;
   color: $light-gray;
@@ -404,7 +412,7 @@ b {
   margin-bottom: 50px;
   display: block;
   font-size: 18px;
-  font-family: $edmond;
+  font-family: $edmond-medium;
   color: $gold;
 }
 
@@ -414,7 +422,7 @@ b {
 
 .menu__item__heading {
   font-size: 18px;
-  font-family: $edmond;
+  font-family: $edmond-medium;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -504,7 +512,7 @@ b {
 
 .moonshiner__heading {
   font-size: 18px;
-  font-family: $edmond;
+  font-family: $edmond-medium;
   text-transform: uppercase;
   letter-spacing: 2px;
   // TODO: merge with menu__item__heading
@@ -540,7 +548,7 @@ b {
   max-width: 640px;
   width: 90%;
   font-size: 24px;
-  font-family: $edmond;
+  font-family: $edmond-medium;
   line-height: 1.6;
   text-align: center;
   color: $white;
@@ -560,7 +568,7 @@ b {
   margin-bottom: 8px;
   font-size: 18px;
   line-height: 32px;
-  font-family: $edmond;
+  font-family: $edmond-medium;
   text-transform: uppercase;
   letter-spacing: 2px;
   // TODO: merge with menu__item__heading

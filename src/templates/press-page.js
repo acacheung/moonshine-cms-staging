@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import Articles from '../components/Articles'
 
 export const PressPageTemplate = ({
@@ -24,10 +26,12 @@ const PressPage = ({ data }) => {
 
   return (
     <Layout>
+      <Navbar />
       <PressPageTemplate
         title={frontmatter.title}
         articles={frontmatter.articles}
       />
+      <Footer />
     </Layout>
   )
 }
