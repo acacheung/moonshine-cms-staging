@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import Moonshiners from '../components/Moonshiners'
 import Content, { HTMLContent } from '../components/Content'
 
@@ -28,6 +30,7 @@ const TeamMember = ({ data }) => {
 
   return (
     <Layout>
+      <Navbar />
       <Moonshiners />
       <TeamMemberTemplate
         content={post.html}
@@ -38,6 +41,7 @@ const TeamMember = ({ data }) => {
           “With an energetic neighborhood &amp; industry focused bar, the Moonshine crew aims to be everyone’s local go-to!”
         </p>
       </div>
+      <Footer />
     </Layout>
   )
 }

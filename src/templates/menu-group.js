@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import Subgroups from '../components/Subgroups'
 import MenuSubgroupNav from '../components/MenuSubgroupNav';
 
@@ -29,6 +31,7 @@ const MenuGroup = ({ data }) => {
 
   return (
     <Layout>
+      <Navbar />
       <div className="l-auto">
         <MenuSubgroupNav />
         <MenuGroupTemplate
@@ -41,6 +44,7 @@ const MenuGroup = ({ data }) => {
           “We offer seasonal menus that focus on bright, sustainable plays on local East Coast cuisine and street food.”
         </p>
       </div>
+      <Footer />
     </Layout>
   )
 }

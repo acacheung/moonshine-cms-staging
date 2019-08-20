@@ -1,7 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 import './all.scss'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from "gatsby"
@@ -11,7 +9,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div>
       <Helmet>
-        <html lang="en" />
+        <html lang="en-us" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
@@ -39,10 +37,10 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
+
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic' rel='stylesheet' type='text/css' />
       </Helmet>
-      <Navbar />
       <div>{children}</div>
-      <Footer />
     </div>
   )
 }

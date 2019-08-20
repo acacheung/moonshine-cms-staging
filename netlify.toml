@@ -5,9 +5,3 @@
 [build.environment]
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
-[[redirects]]
-  from = "/menu/"
-  to = "/menu/dinner/"
-[[redirects]]
-  from = "/team/"
-  to = "/team/asia/"
