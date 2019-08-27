@@ -6,7 +6,7 @@ order: 1
 subgroups:
   - items:
       - description: 'Classic Cocktail Sauce, Chili Cucumber Mignonette'
-        price: 1.50 each
+        price: 3 each
         title: Oysters on the Half Shell
       - description: 'Sesame, Crispy Garlic'
         price: '8'
